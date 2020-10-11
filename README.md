@@ -16,7 +16,7 @@ sudo docker-compose -f helk-kibana-analysis-alert-basic.yml stop
 ```
 # Sentinel
 ## Attack surface reduction rules - https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?ocid=wd-av-demo-asr-bottom
-Search for ASR hits:\
+Search for ASR hits:
 ```
 DeviceEvents
 | where ActionType startswith 'Asr'
