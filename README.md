@@ -56,6 +56,7 @@ Event
   | where FileName !has_any("conhost.exe")
   | project StartTimeUtc, Computers, HostCount, FileName
   | extend timestamp = StartTimeUtc
+```
 
 ## PowerShell stuff
 ```
