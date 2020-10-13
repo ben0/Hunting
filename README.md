@@ -21,7 +21,7 @@ Search for ASR hits:
 DeviceEvents
 | where ActionType startswith 'Asr'
 ```
-## Check Defender Healthy
+## Check Defender 1150 - Healthy
 ```
 Event
 | where EventID == 1150 
